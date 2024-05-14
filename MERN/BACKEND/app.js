@@ -22,7 +22,7 @@ import dotenv from 'dotenv';
  app.use(
     cors({
         origin:["https://restaurant-app-alpha-pink.vercel.app"],
-        methods:["post"],
+        methods:["POST","GET"],
         credentials:true,
 
     })
