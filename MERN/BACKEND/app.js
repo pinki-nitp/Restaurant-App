@@ -21,7 +21,7 @@ import dotenv from 'dotenv';
 
  app.use(
     cors({
-        origin:[process.env.FRONTEND_URL],
+        origin:["https://restaurant-app-blond-omega.vercel.app"],
         methods:["POST"],
         credentials:true,
 
